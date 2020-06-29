@@ -1,0 +1,38 @@
+a{
+  font-size: 2rem;
+  display:inline-block;
+  transition:all 0.1s;
+}
+
+h1{
+  font-size:30px;
+  text-align:center;
+  border-bottom: 1px solid gray;
+  margin:0;
+  padding: 30px;
+}
+#grid ol{
+  border-right:1px solid gray;
+  width:170px;
+  margin: 0;
+  padding-left:  30px;
+  padding-top: 0px;
+
+}
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#article{
+  padding-left: 85px;
+}
+@media(max-width:800px){
+#grid ol{
+  display:block;
+}
+h1{
+  border-bottom:none;
+}
+#grid ol{
+  border-right:none;
+}
