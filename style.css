@@ -1,3 +1,4 @@
+
 a{
   font-size: 2rem;
   display:inline-block;
@@ -7,19 +8,42 @@ a{
 h1{
   font-size:30px;
   text-align:center;
-  border-bottom: 1px solid gray;
   margin:0;
   padding-right: : 40%;
 }
 h1 a{
   width: 320px; height: 200px; background: url(image/qm.gif)no-repeat;
 }
+.ab{border: 1px solid gray; 1319px;height: 50px;
+  display: block;
+  background-color: #4374D9;
+  text-align: center;
+  padding-bottom: 10px;
+}
+ul li{
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+  width:240px;height: 30px;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  margin:-3px;
+}
+.ab a{
+  width: 100%;
+        height: 100%;
+        display: block;
+  borer:1px solid gray; 50px; height: 38px;
+  font-size: 20px;
+  text-decoration: none;
+  color:#F6F6F6
+}
 #grid ol{
   border-right:1px solid gray;
   width:170px;
   margin: 0;
   padding-left:  30px;
-  padding-top: 0px;
+  padding-top: 50px;
 
 }
 #grid{
