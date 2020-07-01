@@ -9,7 +9,10 @@ h1{
   text-align:center;
   border-bottom: 1px solid gray;
   margin:0;
-  padding: 30px;
+  padding-right: : 40%;
+}
+h1 a{
+  width: 320px; height: 200px; background: url(image/qm.gif)no-repeat;
 }
 #grid ol{
   border-right:1px solid gray;
