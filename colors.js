@@ -6,7 +6,7 @@ var Links={
     // alist[i].style.color=color;
     // i=i+1;
     //   }
-    $('a').css('color',color);
+    $('.side a').css('color',color);
     }
   }
   var Body={
@@ -24,14 +24,23 @@ var target=document.querySelector('body');
 if (s.value==='night'){
 Body.SetBackgroundColor('black');
 Body.SetColor('white');
-s.value='day';
+s.value='pink';
 
-Links.SetColor('white');
-}else{
+Links.SetColor('powderblue');
+}
+
+
+ else if(s.value==='pink'){
+     Body.SetBackgroundColor('pink');
+        s.value='day';
+   Body.SetColor('black');
+Links.SetColor('yellow');
+   }
+else {
   Body.SetBackgroundColor('white');
 Body.SetColor('black');
 s.value='night';
-
 Links.SetColor('blue');
-   }
+
   }
+}
