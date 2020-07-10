@@ -48,7 +48,7 @@ ul li{
 }
 #grid{
   display: grid;
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 80px 1fr;
 }
 #article{
   padding-left: 85px;
@@ -60,7 +60,7 @@ ul li{
 .side ol li a{
   text-decoration: none;
     display: block;
-   width: 170px; height: 500px;
+   width: 150px; height: 300px;
 }
 #grid ol{
   display:block;
@@ -88,6 +88,7 @@ h1{
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   grid-gap: 20px;
+  padding-right: 70px;
 }
 .card{
   background:#fff;
