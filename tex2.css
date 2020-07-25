@@ -1,0 +1,119 @@
+div, span, applet, object, iframe,
+ h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/* /////////////////////////////////////// */
+*{
+  text-decoration: none;
+  list-style: none;
+}
+body a{
+  font-size: 20px;
+}
+.center{
+  padding-top: 100px;
+  padding-left: 10%;
+}
+
+h1{
+  display: inline-block;
+  padding-left: 35%;
+}
+h1 a{
+  color: powderblue;
+  font-size:64px;
+  margin: 0 auto;
+}
+.center #update_link{
+  padding-left: 80%;
+}
+.center #update_link a{
+  font-size: 25px;
+  color: green;
+  border: solid 3px;
+}
+.form{
+  padding-left: 35%;
+}
+.center #text{
+  color: white;
+}
+h2{
+  font-size: 38px;
+  color: yellow;
+}
+body{
+  background: url('image/0770.jpg') no-repeat;
+  background-size: cover;
+  font-family: Arial;
+}
+
+nav{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background: white;
+	opacity: 0.6;
+	box-shadow:  0 0 5px rgba(0, 0, 0,.5);
+}
+nav div {
+display: flex;
+position: relative;
+width: 1000px;
+margin: 0 auto;
+}
+nav div a{
+	flex:1;
+	display:block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #5CD1E5;
+  font-size: 25px;
+}
+nav div a.on{
+	color: black;
+}
+nav div > span{
+	position: absolute;
+	opacity: 0;
+	left: 0;
+	bottom: 0;
+	width: 250px;
+	height: 3px;
+	background: green;
+	transition: all .5s;
+}
+
+nav div a:nth-child(1).on~span{
+left: 0; opacity: 1;}
+nav div a:nth-child(2).on ~ span {
+left: 250px; opacity: 1;}
+nav div a:nth-child(3).on ~ span{
+left: 500px; opacity: 1;}
+nav div a:nth-child(4).on~span{
+left: 750px; opacity: 1;}
+nav div a:nth-child(5).on~span{
+left: 900px; opacity: 1;}
